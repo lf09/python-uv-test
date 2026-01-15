@@ -11,12 +11,12 @@ $ curl -Ls https://astral.sh/uv/install.sh | sh
 Verificar instalação:
 $ uv --version
 
-🚀 Criando um novo projeto
+## 🚀 Criando um novo projeto
 $ uv init meu-projeto
 Obs.: É possível iniciar o projeto sem um nome também, ex: 
 $ uv init
 
-# Estrutura padrão do projeto:
+## Estrutura padrão do projeto:
 meu-projeto/
 ├── pyproject.toml
 ├── .python-version
