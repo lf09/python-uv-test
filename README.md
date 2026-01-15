@@ -26,6 +26,7 @@ $ uv init
 ```
 
 ## Estrutura padrão do projeto:
+```
 meu-projeto/
 ├── pyproject.toml
 ├── .python-version
@@ -33,3 +34,4 @@ meu-projeto/
 └── src/
     └── meu_projeto/
         └── __init__.py
+```
