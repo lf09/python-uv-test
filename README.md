@@ -35,3 +35,22 @@ meu-projeto/
     └── meu_projeto/
         └── __init__.py
 ```
+---
+
+## Para adicionar lib no projeto:
+```
+$ uv add fastapi
+```
+# Adicionando em um ambiente específico:
+```
+$ uv add --dev fastapi
+```
+
+## Para remover uma lib:
+```
+$ uv remove fastapi
+```
+
+As dependências serão adicionadas ou removidas do pyproject.toml;
+
+---
