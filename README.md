@@ -11,6 +11,8 @@ $ curl -Ls https://astral.sh/uv/install.sh | sh
 Verificar instalação:
 $ uv --version
 
+---
+
 ## 🚀 Criando um novo projeto
 $ uv init meu-projeto
 Obs.: É possível iniciar o projeto sem um nome também, ex: 
