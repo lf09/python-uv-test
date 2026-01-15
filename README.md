@@ -41,7 +41,7 @@ meu-projeto/
 ```
 $ uv add fastapi
 ```
-# Adicionando em um ambiente específico:
+## Adicionando em um ambiente específico:
 ```
 $ uv add --dev fastapi
 ```
@@ -52,5 +52,33 @@ $ uv remove fastapi
 ```
 
 As dependências serão adicionadas ou removidas do pyproject.toml;
+
+---
+
+## Para rodar arquivos python direto:
+```
+$ uv run main.py
+```
+### Listagem de versões do python no sistema:
+```
+$ uv python list
+```
+### Instalar versão específica do python:
+```
+$ uv python install 3.12
+```
+### Definir versão específica no projeto:
+```
+$ uv python pin 3.12
+```
+### Sincronizar todas as libs que estão no pyproject.toml:
+```
+$ uv sync 
+```
+### Para instalar dependências do pip(requirements.txt) via uv:
+```
+$ uv install -r requirements.txt
+```
+
 
 ---
